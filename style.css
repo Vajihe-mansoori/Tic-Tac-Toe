@@ -1,0 +1,133 @@
+.container {
+  width: 450px;
+  height: 450px;
+  display: block;
+  margin: 25px auto;
+  position: relative;
+}
+
+#cvs {
+  position: absolute;
+  border: 1px solid #000;
+}
+
+.options {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+}
+
+.options h1 {
+  text-align: center;
+  font-size: 65px;
+  color: #7700ff;
+  margin: 30px 0 20px 0;
+}
+
+.options h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.options div {
+  display: inline-block;
+}
+
+.options .computer,
+.x {
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-left: 70px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.options .friend,
+.o {
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.options .friend:hover,
+.computer:hover,
+.x:hover,
+.o:hover {
+  background-color: #011627;
+  color: #fff;
+}
+
+.options .play {
+  font-size: 1.5em;
+  width: 70px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #011627;
+  text-align: center;
+  padding: 10px;
+  background-color: #011627;
+  color: #fff;
+  cursor: pointer;
+  transition: 100ms width ease-in;
+}
+.options .play:hover {
+  width: 110px;
+}
+
+.active {
+  background-color: #011627 !important;
+  color: #fff !important;
+}
+
+.hide {
+  display: none;
+}
+
+.gameover {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.gameover h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin: 40px 0 20px 0;
+}
+
+.gameover .winner-img {
+  display: block;
+  margin: 20px auto;
+}
+
+.gameover .play {
+  font-size: 1.5em;
+  width: 150px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: 100ms width ease-in;
+}
+.gameover .play:hover {
+  width: 200px;
+}
